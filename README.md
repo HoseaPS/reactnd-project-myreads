@@ -8,8 +8,9 @@ App de estante de livros onde você pode selecionar e classificar os livros que 
 
 Clique no botão verde "Clone or Download" e em seguida selecione a opção "Download ZIP" e extraia para o diretório onde você deseja armazenar o app.
 
-```
 Navegue até o diretório e rode o comando
+
+```
 npm install
 ```
 
