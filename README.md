@@ -1,6 +1,6 @@
 # My Reads
 
-App de estante de livro onde você pode selecionar e classificar os livros que você já leu, está lendo ou quer ler. Feito com React como parte do Nanodegree Front-End Avançado da Udacity.
+App de estante de livros onde você pode selecionar e classificar os livros que você já leu, está lendo ou quer ler. Feito com React como parte do Nanodegree Front-End Avançado da Udacity.
 
 ---
 
@@ -8,8 +8,9 @@ App de estante de livro onde você pode selecionar e classificar os livros que v
 
 Clique no botão verde "Clone or Download" e em seguida selecione a opção "Download ZIP" e extraia para o diretório onde você deseja armazenar o app.
 
-```
 Navegue até o diretório e rode o comando
+
+```
 npm install
 ```
 
