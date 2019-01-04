@@ -4,16 +4,13 @@ import Book from "../../components/Book/Book";
 import { Link } from "react-router-dom";
 import Styles from "./styles";
 
-export default class updateQuery extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      books: this.props.books,
-      query: "",
-      searchResults: []
-    };
-    this.changeBookShelf = props.onBookShelfChange;
-  }
+export default class UpdateQuery extends Component {
+  state = {
+    books: this.props.books,
+    query: "",
+    searchResults: []
+  };
+  changeBookShelf = this.props.onBookShelfChange;
 
   updateQuery = query => {
     this.setState({ query: query.trimLeft() });

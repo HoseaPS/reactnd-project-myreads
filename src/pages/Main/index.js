@@ -14,10 +14,9 @@ class BooksApp extends Component {
     this.displayAllBooks();
   }
 
-  displayAllBooks() {
-    BooksAPI.getAll().then(books => {
-      this.setState({ books });
-    });
+  async displayAllBooks() {
+    const books = await BooksAPI.getAll();
+    this.setState({ books });
   }
 
   changeBookShelf = (book, shelf) => {
